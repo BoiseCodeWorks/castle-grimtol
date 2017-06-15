@@ -14,7 +14,7 @@ To help you out with some of these basic features will notice that you already h
 
 ### Step 1 -  Satisfy the Interfaces `Total Points: 10`
 
-To satisfy the interfaces you will need to ensure that your classes implement all of the features of the provided interaces... You cannot remove anything from any of the interfaces. 
+To satisfy the interfaces you will need to ensure that your classes implement all of the features of the provided interfaces... You cannot remove anything from any of the interfaces. 
 
 Requirements:
 - `10 points`: The Basic Features of the game work
