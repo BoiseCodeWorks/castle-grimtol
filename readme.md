@@ -39,7 +39,7 @@ There are several key rooms in this story. Entering a room will trigger an event
 		
 		- use bed: "You climb into the bed and pretend to be asleep. A few minutes later several guards walk into the room. One approaches you to wake you... (GUARD) "Hey Get Up! it's your turn for watch, Go relieve Shigeru in the Guard Room" Quickly you climb out of the bed",
 		
-		- use bed: "(GUARD) What do you think your doing? Hey your not Leroy, Quick Jenkins sieze him.... Jenkins a bit over-zelous swings his sword cleaving you in half... <DEATH MESSAGE>",
+		- use bed * 2: "(GUARD) What do you think your doing? Hey your not Leroy, Quick Jenkins sieze him.... Jenkins a bit over-zelous swings his sword cleaving you in half... <DEATH MESSAGE>",
 		
 		- take uniform: "You placed the Guard Uniform in your inventory"
 	},
@@ -126,6 +126,14 @@ There are several key rooms in this story. Entering a room will trigger an event
 	},
 	- Items: ["messenger overcoat"],
 	- Exits: ['North', 'West']
+	
+- War Room
+	- Description: "Steping into the war room you see several maps spread across tables. On the maps many of the villages have been marked for purification. You also notice several dishes of prepared food to the side perhaps the war council will be meeting soon.",
+	- Actions: {
+		- use Vial: "As you are staring around the room you realize the vial is likely the deadly poisen that the guards have been putting on their arrowheads. Looking for the most ornate cups you drain the vial into the cup then toss the vial out the window.",
+	},
+	- Items: ["Window"],
+	- Exits: ['South']
 
 ### Victory Conditions
 You will likely succeed or fail in this game Here are some messages
@@ -139,6 +147,7 @@ You will likely succeed or fail in this game Here are some messages
 Simply put this is a game that can be completed with the following steps.
 
 - Go North
+- Use Bed // For Points Only
 - Take Uniform 
 - Use Uniform
 - Go South
@@ -160,6 +169,23 @@ Simply put this is a game that can be completed with the following steps.
 - Go East
 - Take Overcoat
 - Use Note
+- Go North
+- Take Key
+- Go South
+- Go West
+- Go South
+- Go South
+- Go East
+- Go North
+- Use Overcoat
+- Go South
+- Go West
+- Go North
+- Go North
+- Use Key // For Points Only 
+- Go East
+- Go North
+- Use Window
 
 
 
