@@ -135,6 +135,10 @@ There are several key rooms in this story. Entering a room will trigger an event
 	- Items: ["Window"],
 	- Exits: ['South']
 
+- Throne Room
+	- Description: "As you unlock the door and swing it wide you see an enormous hall stretching out before you. At the opposite end of the hall sitting on his throne you see the dark lord. The Dark Lord shouts at you demanding why you dared to interrupt him during his Ritual of Evil Summoning... Dumbfounded you mutter an incoherent response. Becoming more enraged the Dark Lord complains that you just ruined his concentration and he will now have to start the ritual over... Quickly striding towards you he smirks at least I know have a sacrificial volunteer. Plunging his jewel encrusted dagger into your heart your world slowly fades away. <DEATH MESSAGE>",
+
+
 ### Victory Conditions
 You will likely succeed or fail in this game Here are some messages
 
@@ -185,7 +189,4 @@ Simply put this is a game that can be completed with the following steps.
 - Use Key // For Points Only 
 - Go East
 - Go North
-- Use Window
-
-
-
+- Use Window 
