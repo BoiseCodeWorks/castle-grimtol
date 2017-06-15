@@ -12,7 +12,6 @@ namespace CastleGrimtol.Game
         void Setup();
         void StartGame();
         void Reset();
-        string GetUserInput();
 
         //No need to Pass a room since Items can only be used in the CurrentRoom
         void UseItem(string itemName);
