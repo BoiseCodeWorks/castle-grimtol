@@ -1,5 +1,5 @@
 ﻿using System;
-using CastleGrimtol.Game;
+using CastleGrimtol.Project;
 
 namespace CastleGrimtol
 {
