@@ -17,12 +17,14 @@ To help you out with some of these basic features will notice that you already h
 To satisfy the interfaces you will need to ensure that your classes implement all of the features of the provided interfaces... You cannot remove anything from any of the interfaces. 
 
 Requirements:
-- `10 points`: The Basic Features of the game work
+- `10 points`: Basic options of the game
   - `2 Go <Direction>` Moves the player from room to room
   - `2 Use <ItemName>` Uses an item in a room or from your inventory
   - `2 Take <ItemName>` Places an item into the player inventory and removes it from the room
-  - `2 Help` Shows a list of commands and actions
-  - `2 Quit` Quits the Game
+  - `1 Inventory` Shows list of items currently in player inventory
+  - `1 Look` Re-Prints the Room Description
+  - `1 Help` Shows a list of commands and actions
+  - `1 Quit` Quits the Game
 
 ### Step 2 - Control the Game Loop `Total Points: 10`
 
@@ -35,23 +37,24 @@ Requirements:
   - `1`: You have at least 4 rooms
   - `1`: You have at least 1 usable item
   - `1`: You have at least 1 item that can be taken
-  - `1`: You are rewarded points for your efforts
-  - `1`: You can lose the game due to a bad decision
+  - `1`: You are rewarded points for your efforts (Non-static, changed based on player actions)
   - `2`: You have at least 1 room that changes based on an item use
   - `1`: When the player enters a room they get the room description
-  - `1`: The Player can see the items in their inventory
+  - `1`: You can lose the game due to a bad decision
   - `1`: The Player can win the game
+  - `1`: Player can 'Play Again'
   
   
 ### BONUS - Some enhancing features `Total Points: 5`
 
 Requirements: 
-- Typing `go north` all of the time gets laborious accomadate the following shortcuts without having to use the word go
-  - n, s, e, w, 
+- Typing `go north` all of the time gets laborious, additionally the following shortcuts should work without having to press go
+  - n, s, e, w 
+  - Note: both `go north` and `n` should work
 - Try changing the console color or adding some beeps for dramatic effect
 - Clear the console when appropriate
 - The user should know when its their turn try formatting the users input with something like this everytime its the users turn to type
   - What do you do: __________________ // <- Their Answer on the same line
 
 ### Finished?
-When You are finished please slack the url for your github repo to your mentor in a DM. Be sure you add this project to your gh-pages if you want credit for it.
+When You are finished please slack the url for your github repo to your mentor in a DM.
