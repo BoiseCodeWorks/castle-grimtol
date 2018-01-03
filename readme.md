@@ -60,4 +60,4 @@ Your Game must implement the following features
 - Add some riddles or puzzles for users to solve to get from room to room
 
 ### Finished?
-When You are finished please slack the url for your github repo to your mentor in a DM. Be sure you add this project to your gh-pages if you want credit for it.
+When You are finished please submit the url for your github repo to the gradebook.
