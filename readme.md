@@ -6,9 +6,9 @@ As you begin working on a console game the basic requirements of any good consol
   - Move about a set of rooms
   - Get a description of the room they are in
   - Get Help - Shows a list of all available commands
+  - Take Items
   - Use Items
   - Give Up 
-  - Restart
   
 To help you out with some of these basic features will notice that you already have some interfaces that have been built. These interfaces are designed to help ensure you implement the basic requirements of a console game. 
 
@@ -19,6 +19,8 @@ To satisfy the interfaces you will need to ensure that your classes implement al
   - `Go <Direction>` Moves the player from room to room
   - `Use <ItemName>` Uses an item in a room or from your inventory
   - `Take <ItemName>` Places an item into the player inventory and removes it from the room
+  - `Look` Prints the description of the room again
+  - `Inventory` Prints the players inventory
   - `Help` Shows a list of commands and actions
   - `Quit` Quits the Game
 
@@ -38,6 +40,10 @@ Your Game must implement the following features
   
   
  ## Functionality: 
+ - Player input must be seperated into `command` and `option` 
+  - go north
+  - take key
+  - use :banana: 
  - Players can move room to room with the `go <direction>` command
  - Players can `use` items to change the state of the room (use key or use light)
  - Items exist for the player to `take` from rooms (not required for these to be used in a room)

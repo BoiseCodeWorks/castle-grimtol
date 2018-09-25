@@ -2,8 +2,7 @@ using System.Collections.Generic;
 
 namespace CastleGrimtol.Project
 {
-    public class Game : IGame
-    {
-
-    }
+  public class Game : IGame
+  {
+  }
 }
